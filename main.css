@@ -1,0 +1,145 @@
+/* Use media queries for mobile devices */
+
+/* Navbar should always be visible at the top of the display */
+
+/* Implement flexbox for nav-link items */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: #eee;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    color: blue;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+
+button {
+    background-color: #f1c40f;
+    font-weight: 900;
+    font-size: 1rem;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    margin: 100px 0px;
+}
+
+section > h2 {
+    margin-bottom: 0;
+}
+
+section > p {
+    margin-top: 0;
+}
+
+footer {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+}
+
+#header-img {
+    max-width: 300px;
+}
+
+#nav-bar > ul {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+#email-campaign {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 20px auto;
+}
+
+#email {
+    padding: 5px;
+}
+
+#how-it-works {
+    text-align: center;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0px 40px;
+}
+
+.price-options {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.price-container {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+.price-container > h4 {
+    background-color: rgb(221, 221, 221);
+    margin: 0px;
+    padding: 10px;
+}
+
+.footer-nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    margin: 0;
+}
+
+.footer-nav > p {
+    margin: 0px;
+}
+
+.copyright-statement {
+    color: grey;
+}
