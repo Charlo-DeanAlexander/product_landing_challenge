@@ -6,6 +6,7 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -80,6 +81,7 @@ footer {
     gap: 50px;
     justify-content: space-around;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-right: 20px;
 }
 
@@ -91,7 +93,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    max-width: 360px;
     margin: 20px auto;
 }
 
@@ -101,6 +103,11 @@ footer {
 
 #how-it-works {
     text-align: center;
+}
+
+#video {
+    width: 560px;
+    height: 315px;
 }
 
 .page-container {
@@ -114,6 +121,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    /* flex-wrap: wrap; */
 }
 
 .price-container {
