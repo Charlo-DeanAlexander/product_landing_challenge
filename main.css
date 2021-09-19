@@ -14,7 +14,8 @@ body {
     color: black;
     background-color: #eee;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 a {
@@ -49,8 +50,9 @@ button {
     font-weight: 900;
     font-size: 1rem;
     border: 0;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px 20px;
+    margin: 10px auto;
+    width: max-content;
 }
 
 section {
@@ -92,13 +94,34 @@ footer {
 #form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 360px;
+    justify-content: space-between;
+    max-width: 300px;
     margin: 20px auto;
 }
 
 #email {
     padding: 5px;
+}
+
+#features {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+#features > i {
+    text-align: center;
+    color: hsl(35, 100%, 45%);
+}
+
+#features h2,
+#features p {
+    margin: 0;
+}
+
+.feature-description {
+    margin: 1.5rem 0;
 }
 
 #how-it-works {
@@ -121,7 +144,6 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    /* flex-wrap: wrap; */
 }
 
 .price-container {
@@ -136,12 +158,24 @@ footer {
     padding: 10px;
 }
 
+.purchase-button {
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+#footer {
+    width: 100%;
+    max-height: 250px;
+    font-size: 0.9rem;
+}
+
 .footer-nav > ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 10px;
-    margin: 0;
+    margin: 0.5rem 0;
 }
 
 .footer-nav > p {
@@ -149,5 +183,5 @@ footer {
 }
 
 .copyright-statement {
-    color: grey;
+    color: rgb(68, 68, 68);
 }
