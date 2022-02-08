@@ -7,3 +7,6 @@ The purpose of this project is to complete the freecodecamp.org response web des
 ## Challenge:
 
 https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page
+
+## Result:
+[Product Landing Page Challenge - Github Pages](https://charlo-deanalexander.github.io/product_landing_challenge/)
